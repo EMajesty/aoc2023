@@ -15,6 +15,16 @@ fn main() {
     match file.read_to_string(&mut s) {
         Err(why) => panic!("Couldn't read {}: {}", display, why),
         Ok(_) => {
+            s = s.replace("one", "1");
+            s = s.replace("two", "2");
+            s = s.replace("three", "3");
+            s = s.replace("four", "4");
+            s = s.replace("five", "5");
+            s = s.replace("six", "6");
+            s = s.replace("seven", "7");
+            s = s.replace("eight", "8");
+            s = s.replace("nine", "9");
+            //s = s.replace("zero", "0");
             s = s.replace(&['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'][..], "");
             let lines = s.lines();
             let mut sum: u32 = 0;
