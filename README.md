@@ -1,4 +1,4 @@
-- [x] Day 1 part 1
+- [x] - [x] Day 1 part 1
 - [x] Day 1 part 2
 - [x] Day 2 part 1
 - [x] Day 2 part 2
